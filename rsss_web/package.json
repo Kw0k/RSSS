@@ -1,0 +1,34 @@
+{
+  "name": "rsss-web-vue",
+  "private": true,
+  "scripts": {
+    "dev": "npm run serve",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@jiaminghi/data-view": "^2.10.0",
+    "axios": "^0.18.0",
+    "babel-polyfill": "^6.26.0",
+    "element-ui": "^2.11.0",
+    "less": "^4.1.1",
+    "less-loader": "^8.0.0",
+    "mavon-editor": "^2.6.17",
+    "moment": "^2.29.1",
+    "qrcodejs2": "^0.0.2",
+    "qs": "^6.9.6",
+    "vue": "^2.6.10",
+    "vue-axios": "^3.2.2",
+    "vue-cropperjs": "^3.0.0",
+    "vue-router": "^3.0.3",
+    "vue-schart": "^2.0.0",
+    "vuedraggable": "^2.17.0",
+    "webpack-bundle-analyzer": "^4.4.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.9.0",
+    "@vue/cli-service": "^3.9.0",
+    "compression-webpack-plugin": "^6.1.1",
+    "vue-template-compiler": "^2.6.10"
+  }
+}

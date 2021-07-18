@@ -1,0 +1,23 @@
+spring:
+  resources:
+    static-locations: classpath:/BOOT-INF/classes/,classpath:/resources/,
+      classpath:/static/,classpath:/public/,file:static/
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true   #开启页面表单的Rest功能
+  datasource:
+      url: jdbc:mysql://localhost:3306/rsss?serverTimezone=GMT%2B8
+      username: root
+      password: root
+      driver-class-name: com.mysql.cj.jdbc.Driver
+  redis:
+    host: 127.0.0.1
+    port: 6379
+   # password: 123456
+server:
+  port: 8888
+mybatis:
+  configuration:
+    cache-enabled: true
+
