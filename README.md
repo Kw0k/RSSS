@@ -3,6 +3,8 @@
 
 ## 前端
 
+rsss_web
+
 前端采用Vue+ElementUI
 
 运行方式，修改main.js中的后端地址，并执行：
@@ -13,6 +15,8 @@ npm run dev
 ```
 
 ## 后端
+
+rsss_server（建议使用IntelliJ IDEA）
 
 后端采用SpringBoot+SpringSecurity+MyBatis，数据库为MySQL，Redis作为MyBatis的二级缓存。
 
