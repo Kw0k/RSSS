@@ -1,6 +1,9 @@
 # RSSS
 基于计算机视觉的餐厅自助结算系统  SpringBoot+Vue+MyBatis+MySql+Redis+OpenCV+YOLOv3
 
+- ![项目截图](./img/1.png)
+- ![项目截图](./img/2.png)
+
 ## 前端
 
 rsss_web
